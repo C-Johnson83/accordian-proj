@@ -5,7 +5,7 @@ export default function Accordion() {
     const [selected, setSelected] = useState(null)
 
     function clickHandle(currentId) {
-        setSelected(currentId)
+        setSelected(currentId === selected ? null: currentId)
 
 
     }
