@@ -21,6 +21,11 @@ export default function Random() {
         setColor(hexColor)
     }
     function handleRgbColor() {
+const r = randomizer(256)
+const g = randomizer(256)
+const b = randomizer(256)
+
+setColor(`rgb(${r},${g},${b})`)
 
     }
 

@@ -1,12 +1,13 @@
 .container {
-    width: 100vw;
+    /* width: 80%; */
     height: 100vh;
     background-color: black;
     display: flex;
    flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
-    gap: 20px;
+   
 
 }
 .colorButton {
@@ -14,12 +15,12 @@
    
 }
 .colorType {
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 10vh;
     color: aliceblue;
 }
 .color {
-    padding: 10%;
+    padding: 5%;
     font-size: 20vh;
     color: aliceblue;
 }
